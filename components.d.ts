@@ -5,7 +5,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    NCard: typeof import("naive-ui")["NCard"];
+    NCard: typeof import('naive-ui')['NCard']
   }
 }
 

@@ -8,6 +8,7 @@
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
+// naiveUi
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 //@ts-ignore
