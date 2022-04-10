@@ -2,7 +2,7 @@
  * @Description: 布局
  * @Author: xq
  * @Date: 2022-04-10 11:03:08
- * @LastEditTime: 2022-04-10 21:57:57
+ * @LastEditTime: 2022-04-10 22:21:03
  * @LastEditors: xq
 -->
 <template>
@@ -11,7 +11,9 @@
       <TheGlobalSider />
     </n-layout-sider>
     <n-layout>
-      <n-layout-header>颐和园路</n-layout-header>
+      <n-layout-header>
+        <TheGlobalHeader />
+      </n-layout-header>
       <n-layout-content content-style="padding: 24px; color:#000">
         <n-card class="context-wrapper" bordered>
           <router-view></router-view>
@@ -22,6 +24,7 @@
 </template>
 
 <script setup lang="ts">
+import TheGlobalHeader from './TheGlobalHeader.vue';
 import TheGlobalSider from './TheGlobalSider.vue';
 </script>
 
