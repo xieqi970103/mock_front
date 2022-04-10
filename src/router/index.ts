@@ -2,27 +2,23 @@
  * @Description:
  * @Author: xq
  * @Date: 2022-04-06 21:49:10
- * @LastEditTime: 2022-04-08 22:33:06
+ * @LastEditTime: 2022-04-10 20:39:46
  * @LastEditors: xq
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-
-const routes: Array<RouteRecordRaw> = [
-    {
-        path: '/',
-        name: 'home',
-        component: () => import('@/views/Home.vue'), // 建议进行路由懒加载，优化访问性能
-    },
-    // {
-    //   path: '/demo',
-    //   name: 'demo',
-    //   component: () => import('@/views/Demo.vue')
-    // }
+import dynamicRouters from './dynamicRouter'
+/* 基础路由 */
+const baseRoutes: Array<RouteRecordRaw> = [
+  {
+    path: '/404',
+    component: () =>
+      import(/* webpackChunkName: "fail" */ '@/views/exception/404.vue'),
+  },
 ]
-
+const routes: Array<RouteRecordRaw> = [...baseRoutes, ...dynamicRouters]
 const router = createRouter({
-    history: createWebHistory(),
-    routes,
+  history: createWebHistory(),
+  routes,
 })
 
 export default router
