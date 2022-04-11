@@ -6,7 +6,7 @@
  * @LastEditors: xq
 -->
 <template>
-  <div>个人中心</div>
+  <div>个人中心test</div>
 </template>
 
 <script setup lang="ts"></script>
