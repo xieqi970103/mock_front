@@ -2,10 +2,10 @@
  * @Description:
  * @Author: xq
  * @Date: 2022-04-06 21:49:10
- * @LastEditTime: 2022-04-10 20:39:46
+ * @LastEditTime: 2022-04-11 23:04:03
  * @LastEditors: xq
  */
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import dynamicRouters from './dynamicRouter'
 /* 基础路由 */
 const baseRoutes: Array<RouteRecordRaw> = [
@@ -17,7 +17,7 @@ const baseRoutes: Array<RouteRecordRaw> = [
 ]
 const routes: Array<RouteRecordRaw> = [...baseRoutes, ...dynamicRouters]
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 })
 
