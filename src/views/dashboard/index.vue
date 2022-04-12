@@ -2,10 +2,10 @@
  * @Description: 首页
  * @Author: xq
  * @Date: 2022-04-10 11:03:08
- * @LastEditTime: 2022-04-12 21:57:23
+ * @LastEditTime: 2022-04-12 22:00:01
  * @LastEditors: xq
 -->
-<template>首页</template>
+<template>首页tests</template>
 
 <script setup lang="ts"></script>
 
