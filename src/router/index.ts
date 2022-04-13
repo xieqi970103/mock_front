@@ -2,7 +2,7 @@
  * @Description:
  * @Author: xq
  * @Date: 2022-04-06 21:49:10
- * @LastEditTime: 2022-04-13 21:19:53
+ * @LastEditTime: 2022-04-13 21:22:15
  * @LastEditors: xq
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
@@ -27,6 +27,5 @@ router.beforeEach((to, from, next) => {
   } else {
     next()
   }
-  // if(to)
 })
 export default router
