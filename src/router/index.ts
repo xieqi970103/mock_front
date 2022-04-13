@@ -2,7 +2,7 @@
  * @Description:
  * @Author: xq
  * @Date: 2022-04-06 21:49:10
- * @LastEditTime: 2022-04-13 21:22:15
+ * @LastEditTime: 2022-04-13 21:32:09
  * @LastEditors: xq
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
