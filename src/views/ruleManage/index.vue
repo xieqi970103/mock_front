@@ -2,7 +2,7 @@
  * @Description: 规则管理
  * @Author: xq
  * @Date: 2022-04-10 20:41:02
- * @LastEditTime: 2022-05-03 11:11:38
+ * @LastEditTime: 2022-05-03 11:33:16
  * @LastEditors: xq
 -->
 <template>
@@ -75,7 +75,7 @@ const columns = reactive(
 
 /* 获取数据 */
 const data: Song[] = [
-  { no: 3, title: 'Wonderwall', length: '4:18' },
+  { no: 3, title: 'Wonderwall——test', length: '4:18' },
   { no: 4, title: "Don't Look Back in Anger", length: '4:48' },
   { no: 12, title: 'Champagne Supernova', length: '7:27' },
 ]
