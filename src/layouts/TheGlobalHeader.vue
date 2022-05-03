@@ -2,7 +2,7 @@
  * @Description: 头部
  * @Author: xq
  * @Date: 2022-04-10 22:18:11
- * @LastEditTime: 2022-04-10 22:32:35
+ * @LastEditTime: 2022-05-03 11:00:18
  * @LastEditors: xq
 -->
 <template>
@@ -27,5 +27,6 @@
   justify-content: end;
   align-items: center;
   padding: 0px 24px;
+  background-color: #27272a;
 }
 </style>

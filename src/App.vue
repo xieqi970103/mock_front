@@ -2,22 +2,19 @@
  * @Description: 
  * @Author: xq
  * @Date: 2022-04-05 20:07:35
- * @LastEditTime: 2022-04-10 20:27:05
+ * @LastEditTime: 2022-05-03 11:01:14
  * @LastEditors: xq
 -->
 
 <template>
   <n-message-provider>
-    <n-config-provider :theme="theme">
+    <n-config-provider>
       <router-view></router-view>
     </n-config-provider>
   </n-message-provider>
 </template>
 <script setup lang="ts">
-import type { GlobalTheme } from 'naive-ui';
-import { darkTheme } from 'naive-ui';
-import { ref } from 'vue';
-const theme = ref<GlobalTheme | null>(darkTheme)
+// const theme = ref<GlobalTheme | null>(darkTheme)
 </script>
 <style>
 #app {

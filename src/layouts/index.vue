@@ -2,12 +2,12 @@
  * @Description: 布局
  * @Author: xq
  * @Date: 2022-04-10 11:03:08
- * @LastEditTime: 2022-04-11 22:39:45
+ * @LastEditTime: 2022-05-03 11:04:08
  * @LastEditors: xq
 -->
 <template>
   <n-layout has-sider class="wrapper">
-    <n-layout-sider>
+    <n-layout-sider inverted>
       <TheGlobalSider />
     </n-layout-sider>
     <n-layout>

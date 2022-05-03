@@ -2,7 +2,7 @@
  * @Description: 动态路由
  * @Author: xq
  * @Date: 2022-04-10 20:18:31
- * @LastEditTime: 2022-04-10 22:30:33
+ * @LastEditTime: 2022-05-03 10:56:16
  * @LastEditors: xq
  */
 import { Analytics } from '@vicons/ionicons5'
@@ -29,7 +29,7 @@ const dynamicRouters: Array<RouteRecordRaw> = [
       },
       {
         path: '/ruleManage',
-        component: () => import('@/views/ruleManage/index.vue'),
+        component: () => import('@/views/RuleManage/index.vue'),
         name: '规则管理',
         meta: {
           key: 'ruleManage',

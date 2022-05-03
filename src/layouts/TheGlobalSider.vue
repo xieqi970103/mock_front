@@ -2,12 +2,12 @@
  * @Description: 菜单
  * @Author: xq
  * @Date: 2022-04-10 13:39:16
- * @LastEditTime: 2022-04-10 21:43:00
+ * @LastEditTime: 2022-05-03 11:06:59
  * @LastEditors: xq
 -->
 <template>
   <h1>Mock</h1>
-  <n-menu :options="menuOptions" @update:value="updateMenu" />
+  <n-menu inverted :options="menuOptions" @update:value="updateMenu" />
 </template>
 
 <script setup lang="ts">
